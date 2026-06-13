@@ -3,34 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Dev Portfolio Builder</title>
+    <title>BloxFolio | Professional Roblox Portfolios</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Portfolio Builder</h1>
-        <p>Create your Roblox developer profile in seconds.</p>
+
+    <!-- Header Section -->
+    <header class="hero-header">
+        <div class="logo-container">
+            <span class="graffiti-logo">R</span>
+            <h1>BloxFolio</h1>
+        </div>
+        <p class="subtitle">The ultimate directory and automated portfolio engine built explicitly for Roblox creators.</p>
+        <div class="header-badges">
+            <span class="badge badge-main">🚀 Builder Engine Coming Soon</span>
+            <span class="badge badge-sub">💼 Marketplace Integration Pending</span>
+        </div>
     </header>
 
-    <main id="editor">
-        <section id="form-section">
-            <h2>Edit Profile</h2>
-            <input type="text" id="devName" placeholder="Developer Name">
-            <textarea id="devBio" placeholder="Short Bio"></textarea>
-            <input type="text" id="gameLink" placeholder="Roblox Game Link">
-            <button id="previewBtn">Update Preview</button>
-        </section>
-
-        <section id="preview-section">
-            <h2>Live Preview</h2>
-            <div id="portfolio-card">
-                <h3 id="display-name">Developer Name</h3>
-                <p id="display-bio">This is where your bio will appear.</p>
-                <a id="display-link" href="#" target="_blank">View Game</a>
+    <!-- Main Grid Showcase -->
+    <main class="showcase-container">
+        
+        <!-- Category: Lead Developer -->
+        <div class="portfolio-card border-glow-blue">
+            <div class="card-header">
+                <span class="category-tag tag-dev">Scripter & Dev</span>
+                <span class="status-indicator status-open">● Open to Work</span>
             </div>
-        </section>
+            <div class="profile-block">
+                <div class="avatar-placeholder p-dev">K</div>
+                <div class="meta-text">
+                    <h3>Kriz_Dev</h3>
+                    <p class="role-desc">Full-Stack Luau & Web Systems</p>
+                </div>
+            </div>
+            <p class="card-bio">Specializing in secure client-server architectures, low-latency remote event networking, custom database integrations, and high-performance UI mechanics.</p>
+            <div class="stats-row">
+                <div class="stat"><strong>14+</strong> Projects</div>
+                <div class="stat"><strong>Vouch Rate</strong> 100%</div>
+            </div>
+            <button class="view-btn">Inspect System Portfolio</button>
+        </div>
+
+        <!-- Category: Game Studio -->
+        <div class="portfolio-card border-glow-purple">
+            <div class="card-header">
+                <span class="category-tag tag-studio">Game Studio</span>
+                <span class="status-indicator status-closed">● Slots Full</span>
+            </div>
+            <div class="profile-block">
+                <div class="avatar-placeholder p-studio">NS</div>
+                <div class="meta-text">
+                    <h3>Nexus Studios</h3>
+                    <p class="role-desc">Mid-size Development Team</p>
+                </div>
+            </div>
+            <p class="card-bio">A multi-disciplinary studio specializing in high-fidelity map design, optimization, mechanics coding, and frontend experience construction for front-page titles.</p>
+            <div class="stats-row">
+                <div class="stat"><strong>3M+</strong> Visits</div>
+                <div class="stat"><strong>Team Size</strong> 5 Devs</div>
+            </div>
+            <button class="view-btn">Request Studio Deck</button>
+        </div>
+
+        <!-- Category: Freelance Contractor -->
+        <div class="portfolio-card border-glow-green">
+            <div class="card-header">
+                <span class="category-tag tag-freelance">Freelancer</span>
+                <span class="status-indicator status-open">● Hiring / Comm Only</span>
+            </div>
+            <div class="profile-block">
+                <div class="avatar-placeholder p-freelance">V</div>
+                <div class="meta-text">
+                    <h3>Voxel_Visions</h3>
+                    <p class="role-desc">Environmental 3D Modeler</p>
+                </div>
+            </div>
+            <p class="card-bio">Asset commission artist specializing in low-poly map creation, customized PBR texturing architectures, smooth collision geometry, and efficient mesh optimization.</p>
+            <div class="stats-row">
+                <div class="stat"><strong>40+</strong> Assets</div>
+                <div class="stat"><strong>Est. Turnaround</strong> 3 Days</div>
+            </div>
+            <button class="view-btn">View Asset Gallery</button>
+        </div>
+
+        <!-- Category: Creator / Influencer -->
+        <div class="portfolio-card border-glow-gold">
+            <div class="card-header">
+                <span class="category-tag tag-influencer">Influencer</span>
+                <span class="status-indicator status-open">● Brand Deals Open</span>
+            </div>
+            <div class="profile-block">
+                <div class="avatar-placeholder p-influencer">B</div>
+                <div class="meta-text">
+                    <h3>BloxByte_TV</h3>
+                    <p class="role-desc">Content Creator & Beta Reviewer</p>
+                </div>
+            </div>
+            <p class="card-bio">Providing strategic video content coverage, system gameplay integrations, feature deep-dives, live community testing events, and tailored marketing placement.</p>
+            <div class="stats-row">
+                <div class="stat"><strong>150K+</strong> Subs</div>
+                <div class="stat"><strong>Avg. Engagement</strong> 12%</div>
+            </div>
+            <button class="view-btn">Request Media Kit</button>
+        </div>
+
     </main>
 
-    <script src="js/main.js"></script>
+    <footer>
+        <p>&copy; 2026 BloxFolio Engine. Built for Roblox Creators and Developers.</p>
+    </footer>
+
 </body>
 </html>
